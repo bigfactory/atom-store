@@ -6,7 +6,6 @@
   core:
     openEmptyEditorOnStart: false
     disabledPackages: [
-      "about"
       "archive-view"
       "autocomplete-atom-api"
       "autoflow"
@@ -24,7 +23,6 @@
     fontFamily: "Fira mono"
     tabLength: 4
     showIndentGuide: true
-    fontSize: 12
   "atom-terminal": {}
   minimap:
     displayMinimapOnLeft: true
@@ -159,3 +157,6 @@
     showIconsInEditorGutter: true
   "grammar-selector":
     showOnRightSideOfStatusBar: false
+  tabs:
+    usePreviewTabs: true
+    tabScrolling: true
