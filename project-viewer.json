@@ -1,0 +1,26 @@
+{
+    "groups": [
+        {
+            "name": "nep",
+            "color": "#0096ff",
+            "icon": "icon-zap",
+            "expanded": true
+        }
+    ],
+    "projects": [
+        {
+            "name": "nep",
+            "group": "nep",
+            "paths": {
+                "/github/nep/nep": "{\"nep\":{\"expanded\":false,\"entries\":{}}}"
+            }
+        },
+        {
+            "name": "nep-ui",
+            "group": "nep",
+            "paths": {
+                "/github/nep/nep-ui": "{\"nep-ui\":{\"expanded\":true,\"entries\":{\".git\":{\"expanded\":false,\"entries\":{}},\"css\":{\"expanded\":false,\"entries\":{}},\"js\":{\"expanded\":false,\"entries\":{}},\"lib\":{\"expanded\":false,\"entries\":{}},\"node_modules\":{\"expanded\":false,\"entries\":{}},\"semantic\":{\"expanded\":false,\"entries\":{}}}}}"
+            }
+        }
+    ]
+}
