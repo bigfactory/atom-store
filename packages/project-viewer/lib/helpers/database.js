@@ -232,11 +232,16 @@ class DataBase {
                 newData = JSON.parse(data);
                 return this.sanitize(newData);
             } catch (e) {
-                let notification = new Notification('error', Constants.app.errors.fileError, {
-                    dismissable: true
-                });
-                atom.notifications.addNotification(notification);
-                return Constants.app.defaultDataWithMessage;
+                try {
+                    newData = JSON.parse('{' + data + '}');
+                    return this.sanitize(newData);
+                } catch (e) {
+                    let notification = new Notification('error', Constants.app.errors.fileError, {
+                        dismissable: true
+                    });
+                    atom.notifications.addNotification(notification);
+                    return Constants.app.defaultDataWithMessage;
+                }
             }
         }
     }

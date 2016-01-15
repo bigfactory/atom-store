@@ -1,26 +1,42 @@
 {
     "groups": [
         {
+            "name": "atom",
+            "color": "#fffb00",
+            "expanded": true
+        },
+        {
             "name": "nep",
             "color": "#0096ff",
-            "icon": "icon-zap",
             "expanded": true
         }
     ],
     "projects": [
         {
+            "name": "atom-config",
+            "group": "atom",
+            "paths": {
+                "/Users/john/.atom": "{\".atom\":{\"expanded\":true,\"entries\":{\".apm\":{\"expanded\":false,\"entries\":{}},\".git\":{\"expanded\":false,\"entries\":{}},\".node-gyp\":{\"expanded\":false,\"entries\":{}},\"blob-store\":{\"expanded\":false,\"entries\":{}},\"compile-cache\":{\"expanded\":false,\"entries\":{}},\"packages\":{\"expanded\":false,\"entries\":{}},\"storage\":{\"expanded\":false,\"entries\":{}}}}}"
+            },
+            "buffers": []
+        },
+        {
             "name": "nep",
             "group": "nep",
             "paths": {
                 "/github/nep/nep": "{\"nep\":{\"expanded\":false,\"entries\":{}}}"
-            }
+            },
+            "buffers": [
+                "/github/nep/nep/index.js"
+            ]
         },
         {
             "name": "nep-ui",
             "group": "nep",
             "paths": {
-                "/github/nep/nep-ui": "{\"nep-ui\":{\"expanded\":true,\"entries\":{\".git\":{\"expanded\":false,\"entries\":{}},\"css\":{\"expanded\":false,\"entries\":{}},\"js\":{\"expanded\":false,\"entries\":{}},\"lib\":{\"expanded\":false,\"entries\":{}},\"node_modules\":{\"expanded\":false,\"entries\":{}},\"semantic\":{\"expanded\":false,\"entries\":{}}}}}"
-            }
+                "/github/nep/nep-ui": "{\"nep-ui\":{\"expanded\":true,\"entries\":{\".git\":{\"expanded\":false,\"entries\":{}},\"css\":{\"expanded\":false,\"entries\":{}},\"js\":{\"expanded\":false,\"entries\":{}},\"lib\":{\"expanded\":true,\"entries\":{}},\"node_modules\":{\"expanded\":false,\"entries\":{}},\"semantic\":{\"expanded\":false,\"entries\":{}}}}}"
+            },
+            "buffers": []
         }
     ]
 }

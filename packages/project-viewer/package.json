@@ -1,7 +1,7 @@
 {
   "name": "project-viewer",
   "main": "./lib/main",
-  "version": "0.2.26",
+  "version": "0.2.28",
   "description": "Project viewer/manager that lets you add and remove groups/projects as well as switching between them.",
   "keywords": [
     "project",
@@ -34,10 +34,10 @@
     "url": "https://github.com/jccguimaraes/atom-project-viewer/issues"
   },
   "homepage": "https://github.com/jccguimaraes/atom-project-viewer#readme",
-  "_id": "project-viewer@0.2.26",
-  "_shasum": "ec73e79f247f4cc69d3238e9206c9a9963edd30b",
-  "_resolved": "file:../d-116013-27584-1dugh8k/package.tgz",
-  "_from": "../d-116013-27584-1dugh8k/package.tgz",
+  "_id": "project-viewer@0.2.28",
+  "_shasum": "a1088f2f3b4c31e449f2c267503540e85fe72724",
+  "_resolved": "file:../d-116015-6117-of283y/package.tgz",
+  "_from": "../d-116015-6117-of283y/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
